@@ -1,0 +1,3 @@
+-- Name: Chimdera
+-- Class: CSCI 370
+-- Project: Classroom Reward System Project
