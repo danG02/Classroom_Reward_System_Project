@@ -1,0 +1,3 @@
+[Thu Apr 14 13:42:43.140979 2022] [mpm_prefork:notice] [pid 995] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 14 13:42:43.144185 2022] [core:notice] [pid 995] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Apr 14 13:45:38.588077 2022] [php:error] [pid 1005] [client 172.17.0.1:62544] script '/var/www/html/reservations.php' not found or unable to stat
