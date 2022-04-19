@@ -1,0 +1,76 @@
+/*
+Colors
+#E63946
+#F1fAEE
+#A8dadc
+#457b9d
+#1d3557
+*/
+
+
+.title {
+    text-align: center;
+    color: #E63946;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #A8dadc;
+}
+
+.login-page {
+    margin: auto;
+    width: 10rem;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #F1fAEE;
+    width: 12rem;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form input {
+    outline: 0;
+    background: #1d3557;
+    width: 100%;
+    margin: 0 0 .5rem;
+    padding: .5rem;
+    box-sizing: border-box;
+    color: #F1fAEE;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #E63946;
+    width: 100%;
+    border: 0;
+    padding: .5rem;
+    color: #F1fAEE;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background: #E63946;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #1d3557;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #E63946;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
