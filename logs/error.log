@@ -12,3 +12,301 @@
 [Tue Apr 19 21:30:35.904134 2022] [php:notice] [pid 1005] [client 172.17.0.1:62708] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'final project 370' in /app/index.php:11\nStack trace:\n#0 /app/index.php(11): PDO->__construct()\n#1 {main}\n  thrown in /app/index.php on line 11
 [Tue Apr 19 21:35:20.903852 2022] [php:notice] [pid 1863] [client 172.17.0.1:62710] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'final project 370' in /app/index.php:11\nStack trace:\n#0 /app/index.php(11): PDO->__construct()\n#1 {main}\n  thrown in /app/index.php on line 11
 [Tue Apr 19 21:40:35.421304 2022] [php:notice] [pid 1867] [client 172.17.0.1:62716] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'final project 370' in /app/index.php:11\nStack trace:\n#0 /app/index.php(11): PDO->__construct()\n#1 {main}\n  thrown in /app/index.php on line 11
+[Wed Apr 20 16:59:04.738146 2022] [php:notice] [pid 1007] [client 172.17.0.1:62720] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'final project 370' in /app/index.php:11\nStack trace:\n#0 /app/index.php(11): PDO->__construct()\n#1 {main}\n  thrown in /app/index.php on line 11
+[Thu Apr 21 13:35:49.522927 2022] [php:notice] [pid 1861] [client 172.17.0.1:62742] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /app/index.php:21\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 21
+[Thu Apr 21 13:38:02.732024 2022] [php:notice] [pid 1005] [client 172.17.0.1:62744] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /app/index.php:21\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 21
+[Thu Apr 21 13:38:44.366334 2022] [php:notice] [pid 1863] [client 172.17.0.1:62746] PHP Warning:  Undefined variable $pdo in /app/index.php on line 32
+[Thu Apr 21 13:38:44.369526 2022] [php:notice] [pid 1863] [client 172.17.0.1:62746] PHP Stack trace:
+[Thu Apr 21 13:38:44.370669 2022] [php:notice] [pid 1863] [client 172.17.0.1:62746] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:38:44.375246 2022] [php:notice] [pid 1863] [client 172.17.0.1:62746] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 13:38:52.622083 2022] [php:notice] [pid 1865] [client 172.17.0.1:62748] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /app/index.php:21\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 21
+[Thu Apr 21 13:39:49.409596 2022] [php:notice] [pid 1008] [client 172.17.0.1:62750] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /app/index.php:21\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 21
+[Thu Apr 21 13:40:32.924338 2022] [php:notice] [pid 1867] [client 172.17.0.1:62752] PHP Warning:  Undefined variable $pdo in /app/index.php on line 31
+[Thu Apr 21 13:40:32.926818 2022] [php:notice] [pid 1867] [client 172.17.0.1:62752] PHP Stack trace:
+[Thu Apr 21 13:40:32.928400 2022] [php:notice] [pid 1867] [client 172.17.0.1:62752] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:40:32.930635 2022] [php:notice] [pid 1867] [client 172.17.0.1:62752] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:31\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 31
+[Thu Apr 21 13:40:56.701728 2022] [php:notice] [pid 1003] [client 172.17.0.1:62754] PHP Warning:  Undefined variable $pdo in /app/index.php on line 31
+[Thu Apr 21 13:40:56.703604 2022] [php:notice] [pid 1003] [client 172.17.0.1:62754] PHP Stack trace:
+[Thu Apr 21 13:40:56.704840 2022] [php:notice] [pid 1003] [client 172.17.0.1:62754] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:40:56.708803 2022] [php:notice] [pid 1003] [client 172.17.0.1:62754] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:31\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 31
+[Thu Apr 21 13:41:42.596018 2022] [php:notice] [pid 1007] [client 172.17.0.1:62756] PHP Warning:  Undefined variable $pdo in /app/index.php on line 31
+[Thu Apr 21 13:41:42.598456 2022] [php:notice] [pid 1007] [client 172.17.0.1:62756] PHP Stack trace:
+[Thu Apr 21 13:41:42.600040 2022] [php:notice] [pid 1007] [client 172.17.0.1:62756] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:41:42.602551 2022] [php:notice] [pid 1007] [client 172.17.0.1:62756] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:31\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 31
+[Thu Apr 21 13:42:50.976013 2022] [php:notice] [pid 1009] [client 172.17.0.1:62758] PHP Warning:  Undefined variable $pdo in /app/index.php on line 31
+[Thu Apr 21 13:42:50.978757 2022] [php:notice] [pid 1009] [client 172.17.0.1:62758] PHP Stack trace:
+[Thu Apr 21 13:42:50.980636 2022] [php:notice] [pid 1009] [client 172.17.0.1:62758] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:42:50.982856 2022] [php:notice] [pid 1009] [client 172.17.0.1:62758] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:31\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 31
+[Thu Apr 21 13:42:58.014675 2022] [php:notice] [pid 1861] [client 172.17.0.1:62760] PHP Warning:  Undefined variable $pdo in /app/index.php on line 31
+[Thu Apr 21 13:42:58.015506 2022] [php:notice] [pid 1861] [client 172.17.0.1:62760] PHP Stack trace:
+[Thu Apr 21 13:42:58.016457 2022] [php:notice] [pid 1861] [client 172.17.0.1:62760] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:42:58.017444 2022] [php:notice] [pid 1861] [client 172.17.0.1:62760] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:31\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 31
+[Thu Apr 21 13:46:59.940779 2022] [php:notice] [pid 1005] [client 172.17.0.1:62762] PHP Warning:  Undefined variable $pdo in /app/index.php on line 31
+[Thu Apr 21 13:46:59.943046 2022] [php:notice] [pid 1005] [client 172.17.0.1:62762] PHP Stack trace:
+[Thu Apr 21 13:46:59.944836 2022] [php:notice] [pid 1005] [client 172.17.0.1:62762] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 13:46:59.946982 2022] [php:notice] [pid 1005] [client 172.17.0.1:62762] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:31\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 31
+[Thu Apr 21 14:03:29.718255 2022] [php:notice] [pid 1861] [client 172.17.0.1:62778] PHP Warning:  Undefined variable $pdo in /app/index.php on line 32
+[Thu Apr 21 14:03:29.721764 2022] [php:notice] [pid 1861] [client 172.17.0.1:62778] PHP Stack trace:
+[Thu Apr 21 14:03:29.723013 2022] [php:notice] [pid 1861] [client 172.17.0.1:62778] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:03:29.726198 2022] [php:notice] [pid 1861] [client 172.17.0.1:62778] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:03:49.714674 2022] [php:notice] [pid 1005] [client 172.17.0.1:62780] PHP Warning:  Undefined variable $pdo in /app/index.php on line 32
+[Thu Apr 21 14:03:49.715696 2022] [php:notice] [pid 1005] [client 172.17.0.1:62780] PHP Stack trace:
+[Thu Apr 21 14:03:49.716284 2022] [php:notice] [pid 1005] [client 172.17.0.1:62780] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:03:49.718290 2022] [php:notice] [pid 1005] [client 172.17.0.1:62780] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:10:21.392889 2022] [php:notice] [pid 1863] [client 172.17.0.1:62782] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:10:25.660769 2022] [php:notice] [pid 1865] [client 172.17.0.1:62784] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:16:25.669858 2022] [php:notice] [pid 1008] [client 172.17.0.1:62786] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_query() expects at least 2 arguments, 1 given in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): mysqli_query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:17:37.310276 2022] [php:notice] [pid 1867] [client 172.17.0.1:62788] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): mysqli_query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:18:07.882693 2022] [php:notice] [pid 1003] [client 172.17.0.1:62790] PHP Warning:  Undefined variable $dbh in /app/index.php on line 32
+[Thu Apr 21 14:18:07.884701 2022] [php:notice] [pid 1003] [client 172.17.0.1:62790] PHP Stack trace:
+[Thu Apr 21 14:18:07.897730 2022] [php:notice] [pid 1003] [client 172.17.0.1:62790] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:18:07.904569 2022] [php:notice] [pid 1003] [client 172.17.0.1:62790] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): mysqli_query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:18:32.462729 2022] [php:notice] [pid 1007] [client 172.17.0.1:62792] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:21:06.550394 2022] [php:notice] [pid 1009] [client 172.17.0.1:62794] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:24:16.084096 2022] [php:notice] [pid 1861] [client 172.17.0.1:62796] PHP Warning:  Undefined variable $pdo in /app/index.php on line 32
+[Thu Apr 21 14:24:16.088659 2022] [php:notice] [pid 1861] [client 172.17.0.1:62796] PHP Stack trace:
+[Thu Apr 21 14:24:16.090272 2022] [php:notice] [pid 1861] [client 172.17.0.1:62796] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:24:16.104404 2022] [php:notice] [pid 1861] [client 172.17.0.1:62796] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:32\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:26:17.046346 2022] [php:notice] [pid 1005] [client 172.17.0.1:62798] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystem.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:27:19.395019 2022] [php:notice] [pid 1863] [client 172.17.0.1:62800] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystem.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:27:58.245129 2022] [php:notice] [pid 1865] [client 172.17.0.1:62802] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystem.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:30:00.879937 2022] [php:notice] [pid 1008] [client 172.17.0.1:62804] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystem.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:38:44.380226 2022] [php:notice] [pid 1867] [client 172.17.0.1:62806] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystem.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:46:01.110679 2022] [php:notice] [pid 1003] [client 172.17.0.1:62808] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystem.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:47:08.704434 2022] [php:notice] [pid 1007] [client 172.17.0.1:62810] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 14:47:15.062592 2022] [php:notice] [pid 1009] [client 172.17.0.1:62812] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 19:47:32.017947 2022] [php:notice] [pid 1861] [client 172.17.0.1:62814] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 19:47:35.514681 2022] [php:notice] [pid 1005] [client 172.17.0.1:62816] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Thu Apr 21 19:48:26.217179 2022] [php:notice] [pid 1007] [client 172.17.0.1:62828] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Mon Apr 25 15:21:30.132119 2022] [php:notice] [pid 1009] [client 172.17.0.1:62830] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Tue Apr 26 13:00:31.561010 2022] [php:notice] [pid 1003] [client 172.17.0.1:62844] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Tue Apr 26 13:07:20.284959 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:07:20.288150 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP Stack trace:
+[Tue Apr 26 13:07:20.289469 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:07:20.293521 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:07:20.294730 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP Stack trace:
+[Tue Apr 26 13:07:20.295668 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:07:20.296253 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:07:20.296989 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP Stack trace:
+[Tue Apr 26 13:07:20.297885 2022] [php:notice] [pid 1007] [client 172.17.0.1:62846] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:08:20.394113 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:08:20.396317 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP Stack trace:
+[Tue Apr 26 13:08:20.397160 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:08:20.401542 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:08:20.402110 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP Stack trace:
+[Tue Apr 26 13:08:20.403126 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:08:20.403942 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:08:20.404801 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP Stack trace:
+[Tue Apr 26 13:08:20.405257 2022] [php:notice] [pid 1009] [client 172.17.0.1:62848] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:15:27.201969 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:15:27.207704 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP Stack trace:
+[Tue Apr 26 13:15:27.208839 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:15:27.212025 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:15:27.212636 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP Stack trace:
+[Tue Apr 26 13:15:27.213718 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:15:27.214271 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:15:27.215226 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP Stack trace:
+[Tue Apr 26 13:15:27.215653 2022] [php:notice] [pid 1861] [client 172.17.0.1:62850] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:17:24.970626 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:17:24.973568 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP Stack trace:
+[Tue Apr 26 13:17:24.974602 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:17:24.977179 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:17:24.977730 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP Stack trace:
+[Tue Apr 26 13:17:24.978422 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:17:24.979046 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP Warning:  Undefined array key "name" in /app/index.php on line 36
+[Tue Apr 26 13:17:24.979611 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP Stack trace:
+[Tue Apr 26 13:17:24.980694 2022] [php:notice] [pid 1005] [client 172.17.0.1:62852] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:26:27.110169 2022] [php:notice] [pid 1863] [client 172.17.0.1:62854] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Tue Apr 26 13:28:40.803619 2022] [php:notice] [pid 1865] [client 172.17.0.1:62856] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Tue Apr 26 13:29:28.859365 2022] [php:notice] [pid 1008] [client 172.17.0.1:62858] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classroomsystems.userinfo' doesn't exist in /app/index.php:32\nStack trace:\n#0 /app/index.php(32): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 32
+[Tue Apr 26 13:29:36.433877 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP Warning:  Undefined array key "studentInfoName" in /app/index.php on line 36
+[Tue Apr 26 13:29:36.438021 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP Stack trace:
+[Tue Apr 26 13:29:36.438634 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:29:36.440648 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP Warning:  Undefined array key "studentInfoName" in /app/index.php on line 36
+[Tue Apr 26 13:29:36.441266 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP Stack trace:
+[Tue Apr 26 13:29:36.441816 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:29:36.442759 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP Warning:  Undefined array key "studentInfoName" in /app/index.php on line 36
+[Tue Apr 26 13:29:36.443619 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP Stack trace:
+[Tue Apr 26 13:29:36.444103 2022] [php:notice] [pid 1867] [client 172.17.0.1:62860] PHP   1. {main}() /app/index.php:0
+[Tue Apr 26 13:31:16.579539 2022] [php:error] [pid 1005] [client 172.17.0.1:62870] script '/var/www/html/reservations.php' not found or unable to stat
+[Tue Apr 26 13:31:16.656643 2022] [php:error] [pid 1005] [client 172.17.0.1:62870] script '/var/www/html/reservations.php' not found or unable to stat
+[Tue Apr 26 14:04:15.346187 2022] [php:notice] [pid 1007] [client 172.17.0.1:62882] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:04:15.355221 2022] [php:notice] [pid 1007] [client 172.17.0.1:62882] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:04:15.357428 2022] [php:notice] [pid 1007] [client 172.17.0.1:62882] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:04:15.360135 2022] [php:notice] [pid 1007] [client 172.17.0.1:62882] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:04:15.361723 2022] [php:notice] [pid 1007] [client 172.17.0.1:62882] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:04:15.362611 2022] [php:notice] [pid 1007] [client 172.17.0.1:62882] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:15:26.548739 2022] [php:notice] [pid 1861] [client 172.17.0.1:62890] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:15:26.553092 2022] [php:notice] [pid 1861] [client 172.17.0.1:62890] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:15:26.554576 2022] [php:notice] [pid 1861] [client 172.17.0.1:62890] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:15:26.557967 2022] [php:notice] [pid 1861] [client 172.17.0.1:62890] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:15:26.559281 2022] [php:notice] [pid 1861] [client 172.17.0.1:62890] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:15:26.560517 2022] [php:notice] [pid 1861] [client 172.17.0.1:62890] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:13.710106 2022] [php:notice] [pid 1865] [client 172.17.0.1:62892] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:16:13.711414 2022] [php:notice] [pid 1865] [client 172.17.0.1:62892] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:13.713164 2022] [php:notice] [pid 1865] [client 172.17.0.1:62892] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:13.714725 2022] [php:notice] [pid 1865] [client 172.17.0.1:62892] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:16:13.715570 2022] [php:notice] [pid 1865] [client 172.17.0.1:62892] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:13.716514 2022] [php:notice] [pid 1865] [client 172.17.0.1:62892] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:19.555943 2022] [php:notice] [pid 1008] [client 172.17.0.1:62894] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:16:19.558714 2022] [php:notice] [pid 1008] [client 172.17.0.1:62894] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:19.560588 2022] [php:notice] [pid 1008] [client 172.17.0.1:62894] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:19.562968 2022] [php:notice] [pid 1008] [client 172.17.0.1:62894] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:16:19.564166 2022] [php:notice] [pid 1008] [client 172.17.0.1:62894] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:19.564784 2022] [php:notice] [pid 1008] [client 172.17.0.1:62894] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:26.307410 2022] [php:notice] [pid 1867] [client 172.17.0.1:62896] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:16:26.321705 2022] [php:notice] [pid 1867] [client 172.17.0.1:62896] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:26.325779 2022] [php:notice] [pid 1867] [client 172.17.0.1:62896] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:26.326641 2022] [php:notice] [pid 1867] [client 172.17.0.1:62896] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:16:26.327471 2022] [php:notice] [pid 1867] [client 172.17.0.1:62896] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:26.329414 2022] [php:notice] [pid 1867] [client 172.17.0.1:62896] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:31.129176 2022] [php:notice] [pid 1003] [client 172.17.0.1:62898] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:16:31.131817 2022] [php:notice] [pid 1003] [client 172.17.0.1:62898] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:31.139490 2022] [php:notice] [pid 1003] [client 172.17.0.1:62898] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:31.141007 2022] [php:notice] [pid 1003] [client 172.17.0.1:62898] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:16:31.141493 2022] [php:notice] [pid 1003] [client 172.17.0.1:62898] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:31.142361 2022] [php:notice] [pid 1003] [client 172.17.0.1:62898] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:53.767470 2022] [php:notice] [pid 1007] [client 172.17.0.1:62900] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:16:53.769785 2022] [php:notice] [pid 1007] [client 172.17.0.1:62900] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:53.771893 2022] [php:notice] [pid 1007] [client 172.17.0.1:62900] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:16:53.774464 2022] [php:notice] [pid 1007] [client 172.17.0.1:62900] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:16:53.775607 2022] [php:notice] [pid 1007] [client 172.17.0.1:62900] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:16:53.776264 2022] [php:notice] [pid 1007] [client 172.17.0.1:62900] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:19:21.200935 2022] [php:notice] [pid 1009] [client 172.17.0.1:62902] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:19:21.202991 2022] [php:notice] [pid 1009] [client 172.17.0.1:62902] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:19:21.204092 2022] [php:notice] [pid 1009] [client 172.17.0.1:62902] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:19:21.205039 2022] [php:notice] [pid 1009] [client 172.17.0.1:62902] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:19:21.205522 2022] [php:notice] [pid 1009] [client 172.17.0.1:62902] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:19:21.206444 2022] [php:notice] [pid 1009] [client 172.17.0.1:62902] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:19:36.892677 2022] [php:notice] [pid 1863] [client 172.17.0.1:62906] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:19:36.895848 2022] [php:notice] [pid 1863] [client 172.17.0.1:62906] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:19:36.897986 2022] [php:notice] [pid 1863] [client 172.17.0.1:62906] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:19:36.902489 2022] [php:notice] [pid 1863] [client 172.17.0.1:62906] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:19:36.903297 2022] [php:notice] [pid 1863] [client 172.17.0.1:62906] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:19:36.905950 2022] [php:notice] [pid 1863] [client 172.17.0.1:62906] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:23:12.741787 2022] [php:notice] [pid 1861] [client 172.17.0.1:62908] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:23:12.743636 2022] [php:notice] [pid 1861] [client 172.17.0.1:62908] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:23:12.744231 2022] [php:notice] [pid 1861] [client 172.17.0.1:62908] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:23:12.745285 2022] [php:notice] [pid 1861] [client 172.17.0.1:62908] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:23:12.746145 2022] [php:notice] [pid 1861] [client 172.17.0.1:62908] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:23:12.747218 2022] [php:notice] [pid 1861] [client 172.17.0.1:62908] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:23:18.639989 2022] [php:notice] [pid 1865] [client 172.17.0.1:62910] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:23:18.641546 2022] [php:notice] [pid 1865] [client 172.17.0.1:62910] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:23:18.642560 2022] [php:notice] [pid 1865] [client 172.17.0.1:62910] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:23:18.645497 2022] [php:notice] [pid 1865] [client 172.17.0.1:62910] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:23:18.646835 2022] [php:notice] [pid 1865] [client 172.17.0.1:62910] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:23:18.648184 2022] [php:notice] [pid 1865] [client 172.17.0.1:62910] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:23:31.645862 2022] [php:notice] [pid 1008] [client 172.17.0.1:62912] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:23:31.648149 2022] [php:notice] [pid 1008] [client 172.17.0.1:62912] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:23:31.649974 2022] [php:notice] [pid 1008] [client 172.17.0.1:62912] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:23:31.652325 2022] [php:notice] [pid 1008] [client 172.17.0.1:62912] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:23:31.653927 2022] [php:notice] [pid 1008] [client 172.17.0.1:62912] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:23:31.655853 2022] [php:notice] [pid 1008] [client 172.17.0.1:62912] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:28:31.307145 2022] [php:notice] [pid 1867] [client 172.17.0.1:62914] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:28:31.309869 2022] [php:notice] [pid 1867] [client 172.17.0.1:62914] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:28:31.310512 2022] [php:notice] [pid 1867] [client 172.17.0.1:62914] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:28:31.312745 2022] [php:notice] [pid 1867] [client 172.17.0.1:62914] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:28:31.315439 2022] [php:notice] [pid 1867] [client 172.17.0.1:62914] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:28:31.315921 2022] [php:notice] [pid 1867] [client 172.17.0.1:62914] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:28:36.474573 2022] [php:notice] [pid 1003] [client 172.17.0.1:62916] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:28:36.477151 2022] [php:notice] [pid 1003] [client 172.17.0.1:62916] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:28:36.477922 2022] [php:notice] [pid 1003] [client 172.17.0.1:62916] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:28:36.479815 2022] [php:notice] [pid 1003] [client 172.17.0.1:62916] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:28:36.480865 2022] [php:notice] [pid 1003] [client 172.17.0.1:62916] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:28:36.481681 2022] [php:notice] [pid 1003] [client 172.17.0.1:62916] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:29:05.312622 2022] [php:notice] [pid 1007] [client 172.17.0.1:62918] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:29:05.314015 2022] [php:notice] [pid 1007] [client 172.17.0.1:62918] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:29:05.315580 2022] [php:notice] [pid 1007] [client 172.17.0.1:62918] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:29:05.316245 2022] [php:notice] [pid 1007] [client 172.17.0.1:62918] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:29:05.332336 2022] [php:notice] [pid 1007] [client 172.17.0.1:62918] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:29:05.333816 2022] [php:notice] [pid 1007] [client 172.17.0.1:62918] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:29:42.517188 2022] [php:notice] [pid 1009] [client 172.17.0.1:62920] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /app/login.php on line 98, referer: http://localhost/login.php
+[Tue Apr 26 14:29:51.986409 2022] [php:notice] [pid 1005] [client 172.17.0.1:62922] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /app/login.php on line 98, referer: http://localhost/login.php
+[Tue Apr 26 14:29:56.076379 2022] [php:notice] [pid 1863] [client 172.17.0.1:62924] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /app/login.php on line 98
+[Tue Apr 26 14:30:01.086109 2022] [php:notice] [pid 1861] [client 172.17.0.1:62926] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /app/login.php on line 98
+[Tue Apr 26 14:30:34.532751 2022] [php:notice] [pid 1008] [client 172.17.0.1:62930] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:30:34.535497 2022] [php:notice] [pid 1008] [client 172.17.0.1:62930] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:30:34.536626 2022] [php:notice] [pid 1008] [client 172.17.0.1:62930] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:30:34.538594 2022] [php:notice] [pid 1008] [client 172.17.0.1:62930] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:30:34.539620 2022] [php:notice] [pid 1008] [client 172.17.0.1:62930] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:30:34.540589 2022] [php:notice] [pid 1008] [client 172.17.0.1:62930] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:31:13.401728 2022] [php:notice] [pid 1867] [client 172.17.0.1:62932] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:31:13.404346 2022] [php:notice] [pid 1867] [client 172.17.0.1:62932] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:31:13.405276 2022] [php:notice] [pid 1867] [client 172.17.0.1:62932] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:31:13.406745 2022] [php:notice] [pid 1867] [client 172.17.0.1:62932] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:31:13.407645 2022] [php:notice] [pid 1867] [client 172.17.0.1:62932] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:31:13.408244 2022] [php:notice] [pid 1867] [client 172.17.0.1:62932] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:37:38.121144 2022] [php:notice] [pid 1003] [client 172.17.0.1:62934] PHP Warning:  Undefined array key "username" in /app/login.php on line 40, referer: http://localhost/login.php
+[Tue Apr 26 14:37:38.127063 2022] [php:notice] [pid 1003] [client 172.17.0.1:62934] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:37:38.128916 2022] [php:notice] [pid 1003] [client 172.17.0.1:62934] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:37:38.130796 2022] [php:notice] [pid 1003] [client 172.17.0.1:62934] PHP Warning:  Undefined array key "password" in /app/login.php on line 47, referer: http://localhost/login.php
+[Tue Apr 26 14:37:38.131954 2022] [php:notice] [pid 1003] [client 172.17.0.1:62934] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:37:38.132847 2022] [php:notice] [pid 1003] [client 172.17.0.1:62934] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:37:45.030861 2022] [php:notice] [pid 1007] [client 172.17.0.1:62936] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:37:45.033520 2022] [php:notice] [pid 1007] [client 172.17.0.1:62936] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:37:45.034740 2022] [php:notice] [pid 1007] [client 172.17.0.1:62936] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:37:45.070327 2022] [php:notice] [pid 1007] [client 172.17.0.1:62936] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM userInfo WHERE userName = ''' at line 1 in /app/login.php:65\nStack trace:\n#0 /app/login.php(65): PDOStatement->execute()\n#1 {main}\n  thrown in /app/login.php on line 65, referer: http://localhost/login.php
+[Tue Apr 26 14:37:56.122307 2022] [php:notice] [pid 1009] [client 172.17.0.1:62938] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:37:56.124419 2022] [php:notice] [pid 1009] [client 172.17.0.1:62938] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:37:56.125988 2022] [php:notice] [pid 1009] [client 172.17.0.1:62938] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:37:56.136094 2022] [php:notice] [pid 1009] [client 172.17.0.1:62938] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM userInfo WHERE userName = ''' at line 1 in /app/login.php:65\nStack trace:\n#0 /app/login.php(65): PDOStatement->execute()\n#1 {main}\n  thrown in /app/login.php on line 65, referer: http://localhost/login.php
+[Tue Apr 26 14:38:47.331712 2022] [php:notice] [pid 1861] [client 172.17.0.1:62944] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:38:47.339840 2022] [php:notice] [pid 1861] [client 172.17.0.1:62944] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:38:47.343486 2022] [php:notice] [pid 1861] [client 172.17.0.1:62944] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:38:47.353823 2022] [php:notice] [pid 1861] [client 172.17.0.1:62944] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM userInfo WHERE userName = ''' at line 1 in /app/login.php:65\nStack trace:\n#0 /app/login.php(65): PDOStatement->execute()\n#1 {main}\n  thrown in /app/login.php on line 65, referer: http://localhost/login.php
+[Tue Apr 26 14:38:52.613821 2022] [php:notice] [pid 1865] [client 172.17.0.1:62946] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:38:52.615479 2022] [php:notice] [pid 1865] [client 172.17.0.1:62946] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:38:52.616523 2022] [php:notice] [pid 1865] [client 172.17.0.1:62946] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:38:52.626259 2022] [php:notice] [pid 1865] [client 172.17.0.1:62946] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM userInfo WHERE userName = ''' at line 1 in /app/login.php:65\nStack trace:\n#0 /app/login.php(65): PDOStatement->execute()\n#1 {main}\n  thrown in /app/login.php on line 65, referer: http://localhost/login.php
+[Tue Apr 26 14:40:16.820607 2022] [php:notice] [pid 1867] [client 172.17.0.1:62950] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:40:16.824743 2022] [php:notice] [pid 1867] [client 172.17.0.1:62950] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:40:16.825701 2022] [php:notice] [pid 1867] [client 172.17.0.1:62950] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:40:16.838606 2022] [php:notice] [pid 1867] [client 172.17.0.1:62950] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM userInfo WHERE userName = ''' at line 1 in /app/login.php:65\nStack trace:\n#0 /app/login.php(65): PDOStatement->execute()\n#1 {main}\n  thrown in /app/login.php on line 65, referer: http://localhost/login.php
+[Tue Apr 26 14:41:55.844428 2022] [php:notice] [pid 1007] [client 172.17.0.1:62954] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:41:55.846967 2022] [php:notice] [pid 1007] [client 172.17.0.1:62954] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:41:55.848036 2022] [php:notice] [pid 1007] [client 172.17.0.1:62954] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:42:27.036378 2022] [php:notice] [pid 1009] [client 172.17.0.1:62956] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:42:27.038678 2022] [php:notice] [pid 1009] [client 172.17.0.1:62956] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:42:27.039445 2022] [php:notice] [pid 1009] [client 172.17.0.1:62956] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:42:41.125045 2022] [php:notice] [pid 1005] [client 172.17.0.1:62958] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:42:41.132213 2022] [php:notice] [pid 1005] [client 172.17.0.1:62958] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:42:41.134179 2022] [php:notice] [pid 1005] [client 172.17.0.1:62958] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:42:49.666475 2022] [php:notice] [pid 1863] [client 172.17.0.1:62960] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:42:49.670999 2022] [php:notice] [pid 1863] [client 172.17.0.1:62960] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:42:49.673599 2022] [php:notice] [pid 1863] [client 172.17.0.1:62960] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:47:15.706493 2022] [php:notice] [pid 1008] [client 172.17.0.1:62966] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:47:15.709223 2022] [php:notice] [pid 1008] [client 172.17.0.1:62966] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:47:15.710537 2022] [php:notice] [pid 1008] [client 172.17.0.1:62966] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:47:33.724070 2022] [php:notice] [pid 1867] [client 172.17.0.1:62968] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:47:33.725209 2022] [php:notice] [pid 1867] [client 172.17.0.1:62968] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:47:33.725731 2022] [php:notice] [pid 1867] [client 172.17.0.1:62968] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:47:48.853116 2022] [php:notice] [pid 1003] [client 172.17.0.1:62970] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:47:48.857394 2022] [php:notice] [pid 1003] [client 172.17.0.1:62970] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:47:48.858866 2022] [php:notice] [pid 1003] [client 172.17.0.1:62970] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 14:47:57.287964 2022] [php:notice] [pid 1007] [client 172.17.0.1:62972] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 14:47:57.291458 2022] [php:notice] [pid 1007] [client 172.17.0.1:62972] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 14:47:57.293028 2022] [php:notice] [pid 1007] [client 172.17.0.1:62972] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 15:59:11.867881 2022] [php:notice] [pid 1009] [client 172.17.0.1:62974] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 15:59:11.897496 2022] [php:notice] [pid 1009] [client 172.17.0.1:62974] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 15:59:11.907521 2022] [php:notice] [pid 1009] [client 172.17.0.1:62974] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 21:06:32.231735 2022] [php:notice] [pid 1003] [client 172.17.0.1:62988] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 21:06:32.236334 2022] [php:notice] [pid 1003] [client 172.17.0.1:62988] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 21:06:32.237717 2022] [php:notice] [pid 1003] [client 172.17.0.1:62988] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 21:06:49.271926 2022] [php:notice] [pid 1007] [client 172.17.0.1:62990] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 21:06:49.276184 2022] [php:notice] [pid 1007] [client 172.17.0.1:62990] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 21:06:49.278869 2022] [php:notice] [pid 1007] [client 172.17.0.1:62990] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 21:07:27.811248 2022] [php:notice] [pid 1009] [client 172.17.0.1:62992] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 21:07:27.814490 2022] [php:notice] [pid 1009] [client 172.17.0.1:62992] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 21:07:27.815804 2022] [php:notice] [pid 1009] [client 172.17.0.1:62992] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 23:37:27.718065 2022] [php:notice] [pid 1865] [client 172.17.0.1:63000] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 23:37:27.762292 2022] [php:notice] [pid 1865] [client 172.17.0.1:63000] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 23:37:27.765259 2022] [php:notice] [pid 1865] [client 172.17.0.1:63000] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Tue Apr 26 23:42:00.086656 2022] [php:notice] [pid 1008] [client 172.17.0.1:63002] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Tue Apr 26 23:42:00.090039 2022] [php:notice] [pid 1008] [client 172.17.0.1:63002] PHP Stack trace:, referer: http://localhost/login.php
+[Tue Apr 26 23:42:00.091340 2022] [php:notice] [pid 1008] [client 172.17.0.1:63002] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Wed Apr 27 00:11:36.667875 2022] [php:notice] [pid 1867] [client 172.17.0.1:63004] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Wed Apr 27 00:11:36.673558 2022] [php:notice] [pid 1867] [client 172.17.0.1:63004] PHP Stack trace:, referer: http://localhost/login.php
+[Wed Apr 27 00:11:36.676007 2022] [php:notice] [pid 1867] [client 172.17.0.1:63004] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
+[Wed Apr 27 20:37:53.526053 2022] [php:notice] [pid 1861] [client 172.17.0.1:63016] PHP Warning:  Undefined array key "userName" in /app/login.php on line 62, referer: http://localhost/login.php
+[Wed Apr 27 20:37:53.533033 2022] [php:notice] [pid 1861] [client 172.17.0.1:63016] PHP Stack trace:, referer: http://localhost/login.php
+[Wed Apr 27 20:37:53.536927 2022] [php:notice] [pid 1861] [client 172.17.0.1:63016] PHP   1. {main}() /app/login.php:0, referer: http://localhost/login.php
