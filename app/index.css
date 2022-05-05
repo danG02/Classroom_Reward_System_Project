@@ -1,0 +1,67 @@
+body {
+    background-color: #A8dadc;
+}
+   
+  /* CSS  Credidited by -> https://getcssscan.com/css-buttons-examples AKA Github*/
+  .butn {
+    appearance: none;
+    background-color: #E63946;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 0.5rem;
+  }
+  
+  .butn:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .butn:hover {
+    background-color: #f06773;
+  }
+  
+  .butn:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .butn:disabled {
+    background-color: #bb6c72;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .butn:active {
+    background-color: #f71b2d;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+  #main_title a{
+      text-decoration: none;
+      color: #E63946;
+      font-size: 52px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+  

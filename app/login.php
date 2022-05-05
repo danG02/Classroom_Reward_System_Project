@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ClassRoom Monopoly</title>
+        <title>Classroom Reward System</title>
         <link rel="stylesheet" href="login.css">
     </head>
     <body>
     <?php
-
+    session_start();
     // Connections Database
     $host = "localhost";
     $port = 3306;
     $socket = "";
     $user = "root";
     $password = "";
-    $dbname = "classroomsystem";
+    $dbname = "classroomsystems";
 
     try {
         $dbh = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
@@ -37,46 +37,45 @@
     if($_SERVER["REQUEST_METHOD"] == "POST") {
      
         // Check if username is empty
-        if(empty(trim($_POST["username"]))) {
+        if(empty(trim($_POST["userName"]))) {
             $username_err = "Please enter username.";
         } else {
-            $username = trim($_POST["username"]);
+            $username = trim($_POST["userName"]);
         }
         
         // Check if password is empty
-        if(empty(trim($_POST["password"]))) {
+        if(empty(trim($_POST["userPassword"]))) {
             $password_err = "Please enter your password.";
         } else {
-            $password = trim($_POST["password"]);
+            $password = trim($_POST["userPassword"]);
         }
         
         // Validate credentials
         if(empty($username_err) && empty($password_err)){
             // Prepare a select statement
-            $sql = "SELECT userName, userPassword FROM userInfo WHERE userName = :username;";
+            $sql = "SELECT userInfoName, userName, userPassword FROM userInfo WHERE userName = :userName";
             if($stmt = $dbh->prepare($sql)){
                 // Bind variables to the prepared statement as parameters
-                $stmt->bindParam(":username", $param_username, PDO::PARAM_STR);
+                $stmt->bindParam(":userName", $param_username, PDO::PARAM_STR);
                 
                 // Set parameters
-                $param_username = trim($_POST["userName"]);
+                $param_username = trim($_POST["userName"]); //changing this will change it
                 
                 // Attempt to execute the prepared statement
                 if($stmt->execute()) {
                     // Check if username exists, if yes then verify password
                     if($stmt->rowCount() == 1) {
                         if($row = $stmt->fetch()) {
-                            //$id = $row["id"];
+                            $userInfoName = $row["userInfoName"];
                             $username = $row["userName"];
-                            //$hashed_password = $row["userPassword"];
-                            $password = $row["userPassword"];
-                            if(password_verify($password)){ //if(password_verify($password, $hashed_password)){
+                            $hashed_password = $row["userPassword"];
+                            if(password_verify($password, $hashed_password)){
                                 // Password is correct, so start a new session
                                 session_start();
                                 
                                 // Store data in session variables
                                 $_SESSION["loggedin"] = true;
-                                //$_SESSION["id"] = $id;
+                                $_SESSION["userInfoName"] = $userInfoName;
                                 $_SESSION["userName"] = $username;                            
                                 
                                 // Redirect user to welcome page
@@ -86,7 +85,7 @@
                                 $login_err = "Invalid username or password. PASSWORD";
                             }
                         }
-                    } else{
+                    } else {
                         // Username doesn't exist, display a generic error message
                         $login_err = "Invalid username or password. USERNAME";
                     }
@@ -104,7 +103,7 @@
     }
     // ---------------------------------------------------------------------------------
     ?>
-    <h2 class="title">App Name</h2>
+    <h2 class="title">Classroom Reward System</h2>
         <hr>
         <div class="login-page">
         <?php 
@@ -113,12 +112,12 @@
         }        
         ?>
             <div class="form">
-                <form class="login" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                <form class="login" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                     <span class="invalid-feedback"><?php echo $username_err; ?></span>
-                    <input type="text" placeholder="Username" name="username" <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>"/>
+                    <input class="btn" type="text" placeholder="Username" name="userName" <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
                     <span class="invalid-feedback"><?php echo $password_err; ?></span>
-                    <input type="password" placeholder="Password" name="password" <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>"/>
-                    <button>login</button>
+                    <input class="btn" type="password" placeholder="Password" name="userPassword" <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                    <input id="button" type="submit" value="Login"></input>
                     <p class="message"> Not registered? <a href="/signup.php">Create an account</a></p>
                 </form>
             </div>

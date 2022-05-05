@@ -35,7 +35,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.form input {
+.form .btn {
     outline: 0;
     background: #1d3557;
     width: 100%;
@@ -47,7 +47,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.form button {
+.form #button {
     text-transform: uppercase;
     outline: 0;
     background: #E63946;
@@ -59,7 +59,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.form button:hover,.form button:active,.form button:focus {
+
+
+.form #button:hover,.form #button:active,.form #button:focus {
     background: #E63946;
   }
   .form .message {

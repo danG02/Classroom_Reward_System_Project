@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS classroomsystems;
-USE classroomsystems;
+CREATE DATABASE IF NOT EXISTS classroomsystem;
+USE classroomsystem;
 
 DROP TABLE IF EXISTS userInfo;
 DROP TABLE IF EXISTS studentInfo;
